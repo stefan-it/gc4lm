@@ -83,6 +83,24 @@ with the same parameters as the Turkish ELECTRA model on a v3-32 TPU. It uses th
 
 The following checkpoints are available from the Hugging Face Model Hub. Thanks Hugging Face for providing this amazing infrastructure!!
 
+We also include the original TensorFlow checkpoint in each model on the hub.
+
+## Discriminator & generator checkpoints
+
+| Model Hub Name                                                                                                                                                                                                                                                            | Checkpoint (Step)
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -----------------
+| [`electra-base-gc4-64k-0-cased-discriminator`](https://huggingface.co/stefan-it/electra-base-gc4-64k-0-cased-discriminator)             - [`electra-base-gc4-64k-0-cased-generator`](https://huggingface.co/stefan-it/electra-base-gc4-64k-0-cased-generator)             | 0 (Initial)
+| [`electra-base-gc4-64k-100000-cased-discriminator`](https://huggingface.co/stefan-it/electra-base-gc4-64k-100000-cased-discriminator)   - [`electra-base-gc4-64k-100000-cased-generator`](https://huggingface.co/stefan-it/electra-base-gc4-64k-100000-cased-generator)   | 100,000 steps
+| [`electra-base-gc4-64k-200000-cased-discriminator`](https://huggingface.co/stefan-it/electra-base-gc4-64k-200000-cased-discriminator)   - [`electra-base-gc4-64k-200000-cased-generator`](https://huggingface.co/stefan-it/electra-base-gc4-64k-200000-cased-generator)   | 200,000 steps
+| [`electra-base-gc4-64k-300000-cased-discriminator`](https://huggingface.co/stefan-it/electra-base-gc4-64k-300000-cased-discriminator)   - [`electra-base-gc4-64k-300000-cased-generator`](https://huggingface.co/stefan-it/electra-base-gc4-64k-300000-cased-generator)   | 300,000 steps
+| [`electra-base-gc4-64k-400000-cased-discriminator`](https://huggingface.co/stefan-it/electra-base-gc4-64k-400000-cased-discriminator)   - [`electra-base-gc4-64k-400000-cased-generator`](https://huggingface.co/stefan-it/electra-base-gc4-64k-400000-cased-generator)   | 400,000 steps
+| [`electra-base-gc4-64k-500000-cased-discriminator`](https://huggingface.co/stefan-it/electra-base-gc4-64k-500000-cased-discriminator)   - [`electra-base-gc4-64k-500000-cased-generator`](https://huggingface.co/stefan-it/electra-base-gc4-64k-500000-cased-generator)   | 500,000 steps
+| [`electra-base-gc4-64k-600000-cased-discriminator`](https://huggingface.co/stefan-it/electra-base-gc4-64k-600000-cased-discriminator)   - [`electra-base-gc4-64k-600000-cased-generator`](https://huggingface.co/stefan-it/electra-base-gc4-64k-600000-cased-generator)   | 600,000 steps
+| [`electra-base-gc4-64k-700000-cased-discriminator`](https://huggingface.co/stefan-it/electra-base-gc4-64k-700000-cased-discriminator)   - [`electra-base-gc4-64k-700000-cased-generator`](https://huggingface.co/stefan-it/electra-base-gc4-64k-700000-cased-generator)   | 700,000 steps
+| [`electra-base-gc4-64k-800000-cased-discriminator`](https://huggingface.co/stefan-it/electra-base-gc4-64k-800000-cased-discriminator)   - [`electra-base-gc4-64k-800000-cased-generator`](https://huggingface.co/stefan-it/electra-base-gc4-64k-800000-cased-generator)   | 800,000 steps
+| [`electra-base-gc4-64k-900000-cased-discriminator`](https://huggingface.co/stefan-it/electra-base-gc4-64k-900000-cased-discriminator)   - [`electra-base-gc4-64k-900000-cased-generator`](https://huggingface.co/stefan-it/electra-base-gc4-64k-900000-cased-generator)   | 900,000 steps
+| [`electra-base-gc4-64k-1000000-cased-discriminator`](https://huggingface.co/stefan-it/electra-base-gc4-64k-1000000-cased-discriminator) - [`electra-base-gc4-64k-1000000-cased-generator`](https://huggingface.co/stefan-it/electra-base-gc4-64k-1000000-cased-generator) | 1M steps
+
 # License
 
 All models are licensed under [MIT](LICENSE).
