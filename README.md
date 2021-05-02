@@ -31,7 +31,7 @@ Feel free to use `#gc4lm` on Twitter 🐦.
 # Preprocessing
 
 After downloading the complete `HEAD` and `MIDDLE` parts of the GC4, we extract the downloaded archives and extract the
-raw content with the [Gist](https://gist.github.com/Phil1108/e1821fec6eb746edc8e04ef5f76d23f1) from @Phil1108.
+raw content with the provided [Gist](https://gist.github.com/Phil1108/e1821fec6eb746edc8e04ef5f76d23f1) from the GC4 team.
 
 In another pre-processing script we perform sentence-splitting of the whole pre-training corpus. One of the fastest solutions is to
 use NLTK (with the German model) instead of using e.g. Spacy.
