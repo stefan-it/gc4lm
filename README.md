@@ -101,7 +101,7 @@ We also include the original TensorFlow checkpoint in each model on the hub.
 | [`electra-base-gc4-64k-900000-cased-discriminator`](https://huggingface.co/stefan-it/electra-base-gc4-64k-900000-cased-discriminator)   - [`electra-base-gc4-64k-900000-cased-generator`](https://huggingface.co/stefan-it/electra-base-gc4-64k-900000-cased-generator)   | 900,000 steps
 | [`electra-base-gc4-64k-1000000-cased-discriminator`](https://huggingface.co/stefan-it/electra-base-gc4-64k-1000000-cased-discriminator) - [`electra-base-gc4-64k-1000000-cased-generator`](https://huggingface.co/stefan-it/electra-base-gc4-64k-1000000-cased-generator) | 1M steps
 
-**Notice**: You should use the generator for MLM tasks like masked token prediction. The discriminator models should be used for fine-tuning
+**Notice**: You should use the generator models for MLM tasks like masked token prediction. The discriminator models should be used for fine-tuning
 on downstream tasks like NER, PoS tagging, text classication and many more.
 
 ## Training Loss
