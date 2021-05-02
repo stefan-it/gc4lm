@@ -17,7 +17,7 @@ to read:
 from Emily M. Bender, Timnit Gebru, Angelina McMillan-Major and Shmargaret Shmitchell.
 
 The aim of the released checkpoints is to boost research on large pre-trained language models for German, especially
-for identifying biases and how to prevent them, as most research is currently done only for English.
+for identifying biases and how to prevent them, as most research is currently done for English only.
 
 ---
 
@@ -31,10 +31,13 @@ Feel free to use `#gc4lm` on Twitter 🐦.
 # Preprocessing
 
 After downloading the complete `HEAD` and `MIDDLE` parts of the GC4, we extract the downloaded archives and extract the
-raw content with the provided [Gist](https://gist.github.com/Phil1108/e1821fec6eb746edc8e04ef5f76d23f1) from the GC4 team.
+raw content (incl. language score filtering) with the provided
+[Gist](https://gist.github.com/Phil1108/e1821fec6eb746edc8e04ef5f76d23f1) from the GC4 team.
 
 In another pre-processing script we perform sentence-splitting of the whole pre-training corpus. One of the fastest solutions is to
 use NLTK (with the German model) instead of using e.g. Spacy.
+
+After extraction, language score filtering and sentence splitting, the resulting dataset size is **844GB**.
 
 After sentence-splitting the next step is to create an ELECTRA-compatible vocab, that is described in the next section.
 
