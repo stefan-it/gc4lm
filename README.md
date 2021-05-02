@@ -101,6 +101,12 @@ We also include the original TensorFlow checkpoint in each model on the hub.
 | [`electra-base-gc4-64k-900000-cased-discriminator`](https://huggingface.co/stefan-it/electra-base-gc4-64k-900000-cased-discriminator)   - [`electra-base-gc4-64k-900000-cased-generator`](https://huggingface.co/stefan-it/electra-base-gc4-64k-900000-cased-generator)   | 900,000 steps
 | [`electra-base-gc4-64k-1000000-cased-discriminator`](https://huggingface.co/stefan-it/electra-base-gc4-64k-1000000-cased-discriminator) - [`electra-base-gc4-64k-1000000-cased-generator`](https://huggingface.co/stefan-it/electra-base-gc4-64k-1000000-cased-generator) | 1M steps
 
+## Training Loss
+
+The following plot shows the loss curve over 1M steps:
+
+![GC4ELECTRA - training loss curve](figures/gc4electra_64k_loss.png)
+
 # License
 
 All models are licensed under [MIT](LICENSE).
