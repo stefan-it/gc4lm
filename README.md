@@ -26,7 +26,7 @@ Feel free to use `#gc4lm` on Twitter 🐦.
 
 # Changelog
 
-* 01.05.2021: Initial version
+* 02.05.2021: Initial version
 
 # Preprocessing
 
@@ -77,9 +77,9 @@ We decided to generate both a 32k and 64k sized vocabularies, using the awesome 
 # GC4ELECTRA
 
 The first large pre-trained language model on the GC4 corpus is an ELECTRA-based model: *GC4ELECTRA*. It was trained
-with the same parameters as the Turkish ELECTRA model on a v3-32 TPU. It uses the 64k vocabulary (32k model is currently training).
+with the same parameters as the Turkish ELECTRA model on a v3-32 TPU. It uses the **64k** vocabulary (32k model is currently training).
 
-**Notice**: we do not release **one** model. Instead, we release all model checkpoints (100k steps), for more research possibilities.
+**Notice**: we do not release **one** model. Instead, we release all model checkpoints (with a 100k step-width), for more research possibilities.
 
 The following checkpoints are available from the Hugging Face Model Hub. Thanks Hugging Face for providing this amazing infrastructure!!
 
